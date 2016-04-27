@@ -187,6 +187,10 @@ nav {
 .overlay-menu ul li {
     padding: 1rem;
 }
+.overlay-menu ul li:hover {
+    border-radius: solid 1px white;
+    background-color: #5a5858;
+}
 @media screen and (max-width: 600px) {
     html {
         font-size: 12px;
