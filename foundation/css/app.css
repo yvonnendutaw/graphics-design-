@@ -1,10 +1,15 @@
 body {
-    background-image: url(../img/blue.jpg);
+    background-image: url(../color.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 50em;
-    background-attachment: fixed;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    letter-spacing: 2px;
+    color: #fff;
+    height: 100vh;
 }
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400|Architects+Daughter);
 
@@ -51,16 +56,6 @@ body {
 
 html {
     font-size: 16px;
-}
-body {
-    background-size: cover;
-    font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.4;
-    letter-spacing: 2px;
-    color: #fff;
-    height: 100vh;
 }
 
 /* Text */
@@ -223,3 +218,11 @@ li {
     background-color: rgba(0, 0, 0, 0.5);
     /*dim the background*/
 }
+
+/* Coolors Exported Palette - coolors.co/894a61-d790a9-c22b7c-a8a5bc-4c061d */
+
+$color1: #894a61; //rgba(137, 74, 97, 100)
+$color2: #d790a9; //rgba(215, 144, 169, 100)
+$color3: #c22b7c; //rgba(194, 43, 124, 100)
+$color4: #a8a5bc; //rgba(168, 165, 188, 100)
+$color5: #4c061d; //rgba(76, 6, 29, 100)
