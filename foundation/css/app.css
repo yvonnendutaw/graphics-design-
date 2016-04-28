@@ -60,12 +60,11 @@ html {
 
 /* Text */
 
-h1 {
-    margin: 5rem 0;
+.header h1 {
+    margin: 0, 0;
     text-align: center;
-    text-shadow: 0 2px 2px rgb(10, 9, 9);
-    font-size: 3rem;
-    letter-spacing: 5px;
+    font-size: 1em;
+    letter-spacing: 2px;
     font-family: 'Architects Daughter', cursive;
 }
 h2 {
@@ -76,7 +75,7 @@ h2 {
 /* Nav Bar */
 
 nav {
-    background: #554f4f;
+    background: #000000;
     color: #2e2e2e;
     font-size: 0.2rem;
     position: fixed;
@@ -119,7 +118,7 @@ nav {
     top: 10px;
 }
 .menu-icon.active {
-    background: #304453;
+    background: #383b3e;
 }
 .menu-icon.active span {
     background-color: transparent;
@@ -182,9 +181,8 @@ nav {
 .overlay-menu ul li {
     padding: 1rem;
 }
-.overlay-menu ul li:hover {
-    border-radius: solid 1px white;
-    background-color: #5a5858;
+.overlay-menu li a:hover {
+    border-radius: solid 4px white;
 }
 @media screen and (max-width: 600px) {
     html {
@@ -202,6 +200,9 @@ nav img {
 }
 li {
     list-style: none;
+}
+li a:hover {
+    border-radius: solid 4px white;
 }
 .row .row {
     padding: 0em;
