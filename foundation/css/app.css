@@ -1,5 +1,5 @@
 body {
-    background-image: url(../color.jpg);
+    /*    background-image: url(../img/blue.jpg);*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -8,52 +8,10 @@ body {
     font-size: 1rem;
     line-height: 1.4;
     letter-spacing: 2px;
-    color: #fff;
+    color: black;
     height: 100vh;
 }
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400|Architects+Daughter);
-
-/* Grid System */
-
-* {
-    box-sizing: border-box;
-}
-.container {
-    max-width: 960px;
-    position: relative;
-    margin: 0 auto;
-    padding: 0;
-}
-.container:before,
-.container:after {
-    content: "";
-    display: table;
-}
-.container:after {
-    clear: both;
-}
-.row {}
-.row:before,
-.row:after {
-    content: "";
-    display: table;
-}
-.row:after {
-    clear: both;
-}
-.columns {
-    float: left;
-    display: block;
-    margin-bottom: 0;
-    vertical-align: top;
-    padding: 0;
-}
-.columns.half {
-    width: 50%;
-}
-
-/* Main Styles */
-
 html {
     font-size: 16px;
 }
@@ -74,141 +32,6 @@ h2 {
 
 /* Nav Bar */
 
-nav {
-    background: #000000;
-    color: #2e2e2e;
-    font-size: 0.2rem;
-    position: fixed;
-    max-width: 100%;
-    left: 0;
-    top: 0;
-    box-shadow: 0px 2px 10px 0px rgba(123, 115, 115, 0.5);
-    z-index: 200;
-}
-.menu-icon {
-    background: transparent;
-    width: 50px;
-    height: 78px;
-    margin: 0 0 0 auto;
-    position: relative;
-    cursor: pointer;
-    transition: background 0.5s;
-}
-.menu-icon span,
-.menu-icon span:before,
-.menu-icon span:after {
-    cursor: pointer;
-    border-radius: 1px;
-    height: 2px;
-    width: 35px;
-    background: white;
-    position: absolute;
-    left: 15%;
-    top: 50%;
-    display: block;
-    content: '';
-    transition: all 0.5s ease-in-out;
-}
-.menu-icon span:before {
-    left: 0;
-    top: -10px;
-}
-.menu-icon span:after {
-    left: 0;
-    top: 10px;
-}
-.menu-icon.active {
-    background: #383b3e;
-}
-.menu-icon.active span {
-    background-color: transparent;
-}
-.menu-icon.active span:before,
-.menu-icon.active span:after {
-    top: 0;
-}
-.menu-icon.active span:before {
-    transform: rotate(135deg);
-}
-.menu-icon.active span:after {
-    transform: rotate(-135deg);
-}
-
-/* Menu */
-
-.overlay-menu {
-    background: rgba(48, 68, 83, 0.9);
-    color: #ffffff;
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 100%;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    width: 100%;
-    padding: 2em;
-    opacity: 0;
-    text-align: center;
-    transform: translateY(-100%);
-    transition: all 0.5s;
-}
-.overlay-menu.open {
-    opacity: 1;
-    transform: translateY(0%);
-}
-.overlay-menu .columns {
-    transform: translateY(5%);
-    opacity: 0;
-    transition: all 0.4s;
-    transition-delay: 0s;
-}
-.overlay-menu.open .columns {
-    transition: all 1s;
-    transition-delay: 1s;
-    opacity: 1;
-    transform: translateY(0%);
-}
-.overlay-menu .columns:nth-child(2) {
-    transition-delay: 0s;
-}
-.overlay-menu.open .columns:nth-child(2) {
-    transition-delay: 1.25s;
-}
-.overlay-menu ul {
-    font-size: 1.5rem;
-    margin-top: 20%;
-}
-.overlay-menu ul li {
-    padding: 1rem;
-}
-.overlay-menu li a:hover {
-    border-radius: solid 4px white;
-}
-@media screen and (max-width: 600px) {
-    html {
-        font-size: 12px;
-    }
-    .columns.half {
-        width: 100%;
-        margin: 10px 0;
-    }
-}
-nav img {
-    width: 6%;
-    float: left;
-    margin: 0em;
-}
-li {
-    list-style: none;
-}
-li a:hover {
-    border-radius: solid 4px white;
-}
-.row .row {
-    padding: 0em;
-    margin: 0em;
-    max-width: 100%;
-}
 .overlay {
     position: absolute;
     top: 0;
@@ -218,6 +41,34 @@ li a:hover {
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
     /*dim the background*/
+}
+.heading {
+    margin: 6%;
+}
+.landing {
+    background-color: #894a61;
+    margin: 0 0;
+    padding: 0 0;
+    max-width: 100%;
+    color: white;
+}
+.button {
+    background-color: forestgreen;
+    border-radius: 2em;
+}
+.button:hover {
+    border: solid 1px white;
+    background-color: transparent;
+}
+nav {
+    background-color: #292525;
+    max-width: 100%;
+    /*    position: fixed;*/
+}
+.about {
+    padding: 5%;
+    background-color: #d790a9;
+    max-width: 100%;
 }
 
 /* Coolors Exported Palette - coolors.co/894a61-d790a9-c22b7c-a8a5bc-4c061d */
