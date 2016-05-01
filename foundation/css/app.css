@@ -46,14 +46,14 @@ h2 {
     margin: 6%;
 }
 .landing {
-    background-color: #894a61;
+    background-color: #161A23;
     margin: 0 0;
     padding: 0 0;
     max-width: 100%;
     color: white;
 }
 .button {
-    background-color: forestgreen;
+    background-color: #51C879;
     border-radius: 2em;
 }
 .button:hover {
@@ -67,8 +67,38 @@ nav {
 }
 .about {
     padding: 5%;
-    background-color: #d790a9;
+    background-color: #A1BAE6;
     max-width: 100%;
+}
+.solution {
+    padding: 5%;
+    background-color: #434D87;
+    max-width: 100%;
+}
+.solution-heading {
+    width: 50%;
+    text-align: center;
+}
+.what-we-do {
+    text-align: center;
+    height: 50vh;
+}
+.menu {
+    background-color: transparent;
+    float: right;
+}
+.contact {
+    background-color: #161A23;
+    margin: 0 0;
+    padding: 0 0;
+    max-width: 100%;
+    color: white;
+}
+.contact-text {
+    padding: 2%;
+}
+.contact-btn {
+    padding: 5%;
 }
 
 /* Coolors Exported Palette - coolors.co/894a61-d790a9-c22b7c-a8a5bc-4c061d */
