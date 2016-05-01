@@ -82,6 +82,7 @@ nav {
 .what-we-do {
     text-align: center;
     height: 50vh;
+    background-color: #F4F4F4;
 }
 .menu {
     background-color: transparent;
@@ -99,6 +100,10 @@ nav {
 }
 .contact-btn {
     padding: 5%;
+}
+.footer {
+    padding: 5%;
+    max-width: 100%;
 }
 
 /* Coolors Exported Palette - coolors.co/894a61-d790a9-c22b7c-a8a5bc-4c061d */
