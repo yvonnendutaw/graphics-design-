@@ -72,8 +72,9 @@ nav {
 }
 .solution {
     padding: 5%;
-    background-color: #434D87;
+    background-color: #431e2a;
     max-width: 100%;
+    color: white;
 }
 .solution-heading {
     width: 50%;
